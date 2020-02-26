@@ -13,6 +13,7 @@ export const store = new Vuex.Store({
             {name: 'Red Shells', price: 80}
         ]
     },
+
     /*
     *Just Functions
      */
@@ -36,6 +37,7 @@ export const store = new Vuex.Store({
      */
     mutations: {
         //payload is the body or param that we took from a function
+
         reducePrice: (state, payload) => {
             state.products.forEach( product => {
                 product.price -= payload

@@ -8,6 +8,7 @@
             </li>
         </ul>
         <button v-on:click="reducePrice(10)">Promo Button</button>
+
     </div>
 </template>
 
